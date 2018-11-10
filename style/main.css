@@ -1,0 +1,314 @@
+@font-face{
+    font-family: Panton, sans-serif;
+    src: url('/fonts/Panton.otf');
+}
+
+@font-face{
+    font-family: Pfagorasanspro-bold, sans-serif;
+    src: url('/fonts/pfagorasanspro-bold.ttf');
+}
+
+@font-face{
+    font-family: Poppins-light, sans-serif;
+    src: url('/fonts/Poppinslight.ttf');
+}
+
+
+.header{
+    width: 1264px;
+    height: 110px;
+    padding-top: 30px; 
+}
+
+.container{
+    text-align: center;
+
+    width: 950px auto;
+    height: 40px;
+    margin: 0px 160px 0 160px;
+}
+
+.header__left{
+    font-family: Panton, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #4e4e50;
+    float: left;
+}
+
+.header__left > a{
+    text-decoration: none;
+}
+
+.header__center{
+    float: left;
+    margin-left: 36px;
+    text-align: center;
+}
+
+.header__center-item{
+    font-family: Pfagorasanspro-bold, sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    font-style:italic;
+    padding-left: 7px;
+}
+
+.center__item-text{
+    color: #e90f20;
+    font-style: italic;
+    font-size: 30px;
+}
+
+.header__right{
+    float: left;
+    font-family: Poppins-light, sans-serif;
+    margin-left: 25px;
+   
+}
+
+.right__list{
+    margin-top: 0;
+    padding: 0;
+}
+
+.right__list-item{
+    list-style: none;
+}
+
+.right__list-item > a{
+    text-decoration: none;
+    color: #303030;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: right;
+}
+
+.header__contacts{
+    float: left;
+    font-family: Poppins-light, sans-serif;
+    font-size: 12px;
+    
+}
+
+.right__list-item-padding{
+    padding-left:20px;
+}
+
+.list__item-telephone{
+    border-bottom: 1px dashed #ff1212;
+    margin-left: 6px;
+}
+
+.list__image-telephone{
+    padding-left: 10px;
+}
+
+/* Sidebar */
+
+.sidebar{
+    width: 1264px;
+    height: 40px;
+    background-color: #f02640;
+    margin-bottom: 45px; 
+}
+
+.list{
+    font-family: Poppins-light, sans-serif;
+    height: 40px;
+}
+
+.sidebar__list{
+    list-style: none;
+    margin-top: 17px;
+    padding-top: 10px;
+}
+
+.sidebar__list-item{
+    float:left;
+    height: 30px;
+    
+}
+
+.sidebar__list-item > a{
+    text-decoration: none;
+    color: white;
+    font-size: 21px;
+    margin-left: 17px;
+
+}
+.sidebar__list-item > a:hover{
+    color: white;
+    background: #444;
+}
+
+/* Content */
+
+.content{
+    width: 1264px;
+    height: auto;                               /*Изменить */ 
+    font-family: Poppins-light, sans-serif;
+}
+
+.content__image{
+    position: relative;
+}
+
+.container__clearfix{
+    margin: 0px 25px 0 25px;
+}
+
+.image__moto{
+    opacity: .8;
+    text-align: justify;
+}
+
+.content__image-text{
+    border: 1px solid #333;
+    background-color: #333;
+    position: absolute;
+    width: 1264px;
+    color: white;
+    text-align: center;
+    height: 63px;
+    font-size:22px;
+    padding-top: 37px;
+    top: 348px;
+    opacity: .9;
+    left: 0px;
+}
+
+.image__three{
+    margin-top: 20px;
+}
+
+/* Сontent__moto-spareparts */ 
+
+.content__moto-spareparts h2{
+    color: #f02640;     
+}
+.content__moto-spareparts hr{
+    border-bottom: 0px solid #333;
+    opacity: .8;
+}
+
+.content__title{
+    text-align: left;
+}
+
+.content__desc{
+    text-align: left;
+    font-size: 14px;
+}
+
+.product-item{
+    width: 180px;
+    height: 246px;
+    font-size: 14px;
+    font-family: Poppins-light, sans-serif;
+}
+
+.item__desc{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    width: 180px;
+}
+
+.item__desc > a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #333;
+}
+
+.item__image{
+    
+    float:left;
+}
+
+.item__btns{
+    text-align: center;
+    margin-top: 25px;
+    
+}
+
+.item__btns-buy {
+    background-color: #333;
+    color: white;
+    width: 65px;
+    height: 25px;
+    font-size: 12px;  
+    padding-left:9px;  
+}
+
+.product-item{
+    float: left;
+    margin-right: 15px;
+}
+
+.product-item:hover{
+    border:3px solid #d7d7dd;
+    border-radius: 3px;
+    height:230px; 
+    margin-top:10px;
+}
+
+.item__desc-price{
+    color: #f02640;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.content__products{
+    width: 1210px;
+}
+
+
+.empty__block{                                  /*Пустой блок */
+    margin-top: 474px;
+}
+
+/* Footer */
+
+.footer{
+    text-align: left;
+    background-color: #111;
+    width: 1264px;
+    height: 50px;
+    margin-top: 506px;
+    color: #999;
+    display:flex;
+    justify-content: space-between;
+}
+
+.footer__content-left{
+    color: #999;
+    padding:18px;
+    width:50%;
+}
+
+.footer__content-left > a{
+    text-decoration: none;
+    color: #999;
+}
+
+.footer__content-left > a:hover{
+    text-decoration: underline;
+}
+
+.footer__content-right{
+    color: #999;
+    opacity: .5;
+    text-align: right;
+    padding: 18px;
+}
+
+.footer__content-right > a{
+    text-decoration: none;
+    color: #999;
+}
+
+.footer__content-right > a:hover{
+    text-decoration: underline;
+}
